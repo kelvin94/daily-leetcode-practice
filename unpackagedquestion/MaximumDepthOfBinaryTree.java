@@ -1,3 +1,6 @@
+package unpackagedquestion;
+import java.util.*;
+
 public class MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         int counter = dfs(root, 0);
@@ -14,12 +17,12 @@ public class MaximumDepthOfBinaryTree {
         }
     }
     //############# LeetCode答案
-    public int maxDepth(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
+    // public int maxDepth(TreeNode root) {
+    //     if (root == null) {
+    //         return 0;
+    //     }
 
-        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
-    }
+    //     return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    // }
 
 }

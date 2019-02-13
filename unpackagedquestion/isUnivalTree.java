@@ -1,9 +1,7 @@
- class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode(int x) { val = x; }
-}
+package unpackagedquestion;
+import java.util.*;
+
+
 
 public class isUnivalTree {
     public boolean isUnivalTree(TreeNode root) {

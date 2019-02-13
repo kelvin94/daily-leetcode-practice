@@ -30,7 +30,7 @@ public class Test {
     return maxDiff;
   }
   public static void main(String[] args) {
-    System.out.println("test222");
+    System.out.println("test22332");
     int[] testData = {7,1,5,3,6,4};
     System.out.println(maxDifference(testData));
   }

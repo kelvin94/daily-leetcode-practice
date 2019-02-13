@@ -1,4 +1,4 @@
-package converstringtolowercase;
+package unpackagedquestion;
 
 public class ConverStringToLowerCase {
     public String toLowerCase(String str) {

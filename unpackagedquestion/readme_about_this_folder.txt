@@ -1,0 +1,1 @@
+这个文件夹都是1月份用intellij做的题目，因为都没有设定package所以function name, class name 都有scope问题

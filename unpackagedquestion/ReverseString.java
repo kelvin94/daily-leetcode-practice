@@ -1,3 +1,6 @@
+package unpackagedquestion;
+import java.util.*;
+
 public class ReverseString {
     public String reverseString(String s) {
         String result = "";

@@ -1,3 +1,6 @@
+package unpackagedquestion;
+import java.util.*;
+
 public class FizzBuzz {
     public List<String> fizzBuzz(int n) {
         ArrayList<String> arrayList = new ArrayList<>();
@@ -15,7 +18,7 @@ public class FizzBuzz {
         return arrayList;
     }
     // ###################### Leetcode上面的答案
-    public List<String> fizzBuzz(int n) {
+    public List<String> fizzBuzz2(int n) {
         List<String> ret = new ArrayList<String>(n);
         for(int i=1,fizz=0,buzz=0;i<=n ;i++){
             fizz++;
