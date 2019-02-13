@@ -1,3 +1,5 @@
+package converstringtolowercase;
+
 public class ConverStringToLowerCase {
     public String toLowerCase(String str) {
         char[] arr = str.toCharArray();
