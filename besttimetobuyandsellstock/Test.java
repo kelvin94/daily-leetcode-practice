@@ -18,8 +18,8 @@ public class Test {
 
   public static int maxDifference2(int[] prices) {
     // this is the solution of the variation of the best time to buy and sell stock problem.
-    // 变化点： 允许多次买卖
-    // 出处： http://hanslen.me/2017/10/15/Best-Time-to-Buy-and-Sell-Stock-series-with-Dynamic-Programming-in-Java/
+    // 
+    //  http://hanslen.me/2017/10/15/Best-Time-to-Buy-and-Sell-Stock-series-with-Dynamic-Programming-in-Java/
     int maxDiff = 0;
     for(int i =1; i< prices.length; i++) {
       int temp = prices[i] - prices[i-1];

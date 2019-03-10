@@ -4,6 +4,27 @@
       "type": "java",
       "name": "CodeLens (Launch) - Test",
       "request": "launch",
+      "mainClass": "removeduplicatesfromsortedarray.Test",
+      "projectName": "pathToJava_b3bd547a"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Test",
+      "request": "launch",
+      "mainClass": "squaresofsortedarray.Test",
+      "projectName": "pathToJava_b3bd547a"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Test",
+      "request": "launch",
+      "mainClass": "mergetwotortedlist.Test",
+      "projectName": "pathToJava_b3bd547a"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Test",
+      "request": "launch",
       "mainClass": "besttimetobuyandsellstock.Test",
       "projectName": "pathToJava_b3bd547a"
     }
